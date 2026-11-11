@@ -278,7 +278,7 @@ document.addEventListener('click',function(e){
 /* ================= modulo ================= */
 /* invio con Web3Forms: la chiave pubblica porta la richiesta all'email di Mattia senza scriverla nella pagina.
    Finché la chiave è vuota il modulo invita a telefonare. */
-var CHIAVE_MODULO='';
+var CHIAVE_MODULO='e4aed8bd-7892-46d7-86cc-09fbd06ae166';
 document.getElementById('modulo').addEventListener('submit',function(e){
   e.preventDefault();var f=e.target,esito=document.getElementById('esito');
   if(f.sito.value)return; // campo trappola per i robot
